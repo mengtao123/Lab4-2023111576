@@ -51,8 +51,9 @@ public class L2023111576_3_Test {
         int[] nums = {1, 2, 4, 8};
         List<Integer> result = solution.largestDivisibleSubset(nums);
 
-        List<Integer> expected = Arrays.asList(1, 2, 4, 8);
-        assertEquals("应该返回[1,2,4,8]", expected, result);
+        // 修改为错误的预期结果
+        List<Integer> expected = Arrays.asList(1, 2, 4);  // ❌ 故意少了 8
+        assertEquals("应该返回[1,2,4,8]，但故意改为错误", expected, result);
     }
 
     /**
