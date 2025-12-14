@@ -53,7 +53,7 @@ public class L2023111576_3_Test {
 
         // 修改为错误的预期结果
         List<Integer> expected = Arrays.asList(1, 2, 4, 8);
-        assertEquals("应该返回[1,2,4,8]", expected, result);
+        assertEquals("应该返回[1,2,4,8]，故意改错", expected, result);
     }
 
     /**
